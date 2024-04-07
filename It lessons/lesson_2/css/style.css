@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  /* border: 1px solid red;
+  border-right-width: 2px;
+  border-right-style: solid;
+  border-right-color: red;
+
+  padding: 5px;
+  margin: 10px; */
+}
+
+
+.blog_post {
+  border: 2px solid red;
+  padding: 20px;
+  background-color: bisque;
+  margin: 10px auto;
+
+  width: 500px;
+}
+
+.blog_post h2 {
+  text-align: center;
+}
+
+.second_post {
+  background-color: aqua;
+  border: 2px solid green;
+}

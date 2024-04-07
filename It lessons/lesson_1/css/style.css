@@ -1,0 +1,72 @@
+/*
+selector {
+  style: value;
+}
+*/
+
+p {
+  color: green;
+  font-size: 48;
+  /* border: толщину стиль цвет рамки */
+  border: 2px solid red;
+}
+
+a {
+  border: 1px solid red;
+}
+
+.second_p {
+  width: 350px;
+  height: 50px;
+}
+
+a {
+  height: 500px;
+}
+
+.green_p {
+  color: greenyellow;
+  border: 2px solid green;
+}
+
+.red_p {
+  color: red;
+  border: 2px solid red;
+}
+
+#small_font {
+  font-size: 20px;
+  width: 150px;
+  border: 1px solid red;
+}
+
+/*
+ 1 - по названию тега (a, p, img, pre ...) 
+ 2 - по названию класса (.red_p, .green_p ...)
+ 3 - по названию id (#red_p, green_p ...)
+ Id это уникальное значение и не может повторяться
+*/
+
+
+.mp_paragraph {
+  /* (top left bottom right) */
+  /* margin: 50px; */
+
+  /* (top bottom) (right left) */
+  /* margin: 150px 40px; */
+
+  /* top (right left) bottom */
+  /* margin: 250px 300px 10px; */
+
+  /* top right bottom left */
+  margin: 250px 450px 10px 25px;
+  /* внешний отступ */
+
+  padding: 140px 25px 100px 250px;
+  /* внутренный отступ */
+}
+
+.a_1 {
+  /* для строчных элементов работают только отступы по бокам */
+  margin: 250px 450px 10px 150px;
+}
